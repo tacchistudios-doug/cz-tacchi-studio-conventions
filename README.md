@@ -25,3 +25,8 @@ Create a `.czrc` file in your `home` directory, with `path` referring to the pre
 ```
 echo '{ "path": "cz-tacchi-studio-conventions" }' > ~/.czrc
 ```
+
+To make a commit using this utility:
+```
+git cz
+```
