@@ -1,5 +1,5 @@
 {
-  "name": "cz-conventional-changelog",
+  "name": "cz-tacchi-studio-conventions",
   "version": "0.0.0-semantically-released.0",
   "description": "Commitizen adapter following the conventional-changelog format.",
   "main": "index.js",
@@ -8,12 +8,12 @@
     "test": "echo 'Tests need to be setup!'",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "homepage": "https://github.com/commitizen/cz-conventional-changelog",
+  "homepage": "https://github.com/tacchistudios-doug/cz-tacchi-studio-conventions",
   "repository": {
     "type": "git",
-    "url": "https://github.com/commitizen/cz-conventional-changelog.git"
+    "url": "https://github.com/tacchistudios-doug/cz-tacchi-studio-conventions.git"
   },
-  "author": "Jim Cummins <jimthedev@gmail.com>",
+  "author": "Douglas Mak <doug@douglasmak.com>",
   "license": "MIT",
   "dependencies": {
     "conventional-commit-types": "^2.0.0",
@@ -27,7 +27,7 @@
     "semantic-release": "^6.3.2"
   },
   "config": {
-    "commitizen" : {
+    "commitizen": {
       "path": "./index.js"
     }
   }
